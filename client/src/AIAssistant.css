@@ -1,0 +1,120 @@
+.ai-assistant-button {
+ position: fixed;
+ bottom: 25px;
+ right: 25px;
+ background: linear-gradient(145deg, #ff9b2d, #ff6f00);
+ color: white;
+ border: none;
+ border-radius: 50px;
+ padding: 12px 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+ cursor: pointer;
+ transition: all 0.3s ease;
+ z-index: 1001;
+ min-width: 190px;
+}
+
+.ai-assistant-button:hover:not(:disabled) {
+ transform: translateY(-2px);
+ box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.ai-assistant-button:disabled {
+ cursor: default;
+ background: linear-gradient(145deg, #a0a0a0, #757575);
+}
+
+/* Icon and Text styling */
+.ai-icon {
+ margin-right: 10px;
+ display: flex;
+ align-items: center;
+}
+.ai-status-text {
+ line-height: 1;
+}
+
+/* --- Status-Specific Styles & Animations --- */
+
+/* Ready State - Glows to invite a click */
+.ai-status-ready {
+  box-shadow: 0 0 15px rgba(46, 204, 113, 0.7);
+}
+
+/* Error State */
+.ai-status-error {
+ background: linear-gradient(145deg, #e74c3c, #c0392b);
+}
+
+/* Loading State */
+.loader {
+ width: 20px;
+ height: 20px;
+ border: 3px solid rgba(255, 255, 255, 0.3);
+ border-top-color: #fff;
+ border-radius: 50%;
+ animation: spin 1s linear infinite;
+}
+@keyframes spin {
+ to { transform: rotate(360deg); }
+}
+
+/* Listening State - The Wave Animation */
+.waves {
+ position: relative;
+ width: 24px;
+ height: 24px;
+}
+.waves::before,
+.waves::after {
+ content: '';
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ width: 24px;
+ height: 24px;
+ transform: translate(-50%, -50%);
+ border-radius: 50%;
+ background-color: rgba(255, 255, 255, 0.7);
+ animation: waves 2s infinite;
+}
+.waves::after {
+ animation-delay: 1s;
+}
+@keyframes waves {
+ 0% {
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 1;
+ }
+ 100% {
+ transform: translate(-50%, -50%) scale(2);
+ opacity: 0;
+ }
+}
+
+/* Processing State - The "Thinking Dots" Animation */
+.dots span {
+ display: inline-block;
+ width: 8px;
+ height: 8px;
+ border-radius: 50%;
+ background-color: white;
+ margin: 0 2px;
+ animation: dots-fade 1.4s infinite;
+}
+.dots span:nth-child(2) {
+ animation-delay: 0.2s;
+}
+.dots span:nth-child(3) {
+ animation-delay: 0.4s;
+}
+@keyframes dots-fade {
+ 0%, 100% { opacity: 0.3; }
+50% { opacity: 1; }
+}
