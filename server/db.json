@@ -1,0 +1,114 @@
+{
+  "menuItems": [
+    {
+      "id": "m9",
+      "nameKey": "paneerTikkaName",
+      "descriptionKey": "paneerTikkaDescription",
+      "price": 280,
+      "categoryKey": "indianAppetizersCategory",
+      "imageUrl": "https://sharethespice.com/wp-content/uploads/2024/02/Paneer-Tikka-Featured-720x720.jpg",
+      "isVeg": true
+    },
+    {
+      "id": "m4",
+      "nameKey": "vegManchurianName",
+      "descriptionKey": "vegManchurianDescription",
+      "price": 160,
+      "categoryKey": "chineseAppetizersCategory",
+      "imageUrl": "https://img.freepik.com/premium-photo/veg-manchurian-popular-indochinese-food-made-cauliflower-florets-other-vegetable-served-white-plate-rustic-wooden-table-selective-focus_726363-656.jpg?w=1380",
+      "isVeg": true
+    },
+    {
+      "id": "m1",
+      "nameKey": "biryaniName",
+      "descriptionKey": "biryaniDescription",
+      "price": 250,
+      "categoryKey": "biryaniAndPulaoCategory",
+      "imageUrl": "https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg",
+      "isVeg": false
+    },
+    {
+      "id": "m2",
+      "nameKey": "paneerName",
+      "descriptionKey": "paneerDescription",
+      "price": 220,
+      "categoryKey": "curriesAndBreadsCategory",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4SasHdleS0RVuVvSn-r4YYe7rW54VBZbd_HNg1E6-Dh0JsCFwaSHdUImEfh0-e-jgJJHMg7wVpRUeKK5Q4Zr8-cZg6IHLFUwvX5LJnBexj6i2t1cy6LGVy9Jb5D8E2NSpjWRtxWLE4AU/s2048/paneer+butter+masala+18.JPG",
+      "isVeg": true
+    },
+    {
+      "id": "m5",
+      "nameKey": "garlicNaanName",
+      "descriptionKey": "garlicNaanDescription",
+      "price": 60,
+      "categoryKey": "curriesAndBreadsCategory",
+      "imageUrl": "https://thebusybaker.ca/wp-content/uploads/2022/02/homemade-naan-bread-fb-ig-4-scaled.jpg",
+      "isVeg": true
+    },
+    {
+      "id": "m8",
+      "nameKey": "muttonRoganJoshName",
+      "descriptionKey": "muttonRoganJoshDescription",
+      "price": 350,
+      "categoryKey": "curriesAndBreadsCategory",
+      "imageUrl": "https://vismaifood.com/storage/app/uploads/public/c60/766/cd3/thumb__1200_0_0_0_auto.jpg",
+      "isVeg": false
+    },
+    {
+      "id": "m3",
+      "nameKey": "hakkaNoodlesName",
+      "descriptionKey": "hakkaNoodlesDescription",
+      "price": 180,
+      "categoryKey": "chineseMainCourseCategory",
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/023/580/730/small_2x/chow-mein-fried-noodles-with-chicken-and-vegetables-generative-ai-photo.jpg",
+      "isVeg": true
+    },
+    {
+      "id": "m7",
+      "nameKey": "vegFriedRiceName",
+      "descriptionKey": "vegFriedRiceDescription",
+      "price": 170,
+      "categoryKey": "chineseMainCourseCategory",
+      "imageUrl": "https://greenbowl2soul.com/wp-content/uploads/2022/09/Paneer-fried-rice.jpg",
+      "isVeg": true
+    },
+    {
+      "id": "b1",
+      "nameKey": "mangoLassiName",
+      "descriptionKey": "mangoLassiDescription",
+      "price": 120,
+      "categoryKey": "beveragesCategory",
+      "imageUrl": "https://img.freepik.com/premium-photo/fresh-smoothie-mango-lassi-with-mango-fruit-isolated-white-background-studio-shot_741910-7141.jpg?w=2000",
+      "isVeg": true
+    },
+    {
+      "id": "b2",
+      "nameKey": "masalaChaiName",
+      "descriptionKey": "masalaChaiDescription",
+      "price": 60,
+      "categoryKey": "beveragesCategory",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0148/1945/9126/articles/Chai_Masala_Tea_1000x1000.jpg?v=1606936195",
+      "isVeg": true
+    },
+    {
+      "id": "b3",
+      "nameKey": "limeSodaName",
+      "descriptionKey": "limeSodaDescription",
+      "price": 70,
+      "categoryKey": "beveragesCategory",
+      "imageUrl": "https://i.ytimg.com/vi/s5uPpSAVORw/maxresdefault.jpg",
+      "isVeg": true
+    },
+    {
+      "id": "m6",
+      "nameKey": "gulabJamunName",
+      "descriptionKey": "gulabJamunDescription",
+      "price": 90,
+      "categoryKey": "dessertsCategory",
+      "imageUrl": "http://www.10000toes.com/wp-content/uploads/2019/08/apricot-dessert-cake.jpg",
+      "isVeg": true
+    }
+  ],
+  "users": [],
+  "reservations": []
+}
