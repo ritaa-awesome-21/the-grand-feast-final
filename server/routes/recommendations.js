@@ -36,7 +36,7 @@ router.get('/', async (req, res) => {
     `;
 
     // 4. Call the Gemini API
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
+    const model = genAI.getGenerativeModel({ model: "gemini-pro"});
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const recommendedKeysText = response.text().trim();
