@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const MenuItem = require('../models/MenuItem');
-console.log("Verifying API Key from environment:", process.env.GEMINI_API_KEY);
+
 // Initialize the Google AI SDK
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
