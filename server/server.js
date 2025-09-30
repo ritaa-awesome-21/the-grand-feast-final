@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 const mongoose = require('mongoose');
+console.log("Verifying API Key at startup:", process.env.GEMINI_API_KEY);
+
 
 // --- DATABASE CONNECTION ---
 const dbURI = process.env.dbURI;
